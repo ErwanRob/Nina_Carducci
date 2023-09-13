@@ -68,6 +68,7 @@ body {
 }
 
 .picture img {
+	height: auto;
 	width: 100%;
 }
 #about-me {
@@ -83,10 +84,19 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
 }
-#about-me p {
-	width: 80%;
+
+.about-me__description {
 	font-size: 14px;
+	width: 80%;
+}
+
+#about-me p {
+	/* font-size: 14px; */
 }
 
 #gallery {
@@ -102,7 +112,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #beb45a;
+	background-color: #695523;
 	border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -147,6 +157,8 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
 }
 .quote__author {
 	font-family: Spectral;
