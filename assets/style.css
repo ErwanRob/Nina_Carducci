@@ -18,6 +18,9 @@ body {
 	align-items: center;
 }
 
+.m-width {
+	max-width: 100%;
+}
 .top-header .name {
 	font-size: 26px;
 }
@@ -69,8 +72,10 @@ body {
 }
 
 .picture img {
-	height: 515px;
-	width: 515px;
+	/* height: 100%; */
+	/* width: 100%; */
+	max-width: 100%;
+	height: auto;
 }
 #about-me {
 	flex: 2;
@@ -89,6 +94,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 0.5rem;
 	line-height: 1.2;
+	height: auto;
 }
 
 .about-me__description {
@@ -158,9 +164,16 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 2rem;
+	font-size: calc(1.375rem + 1.5vw);
 	margin-bottom: 0.5rem;
+	line-height: 1.2;
 }
+@media (min-width: 1200px) {
+	.quote__text {
+		font-size: 2rem;
+	}
+}
+
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
