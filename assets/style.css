@@ -18,10 +18,11 @@ body {
 	align-items: center;
 }
 
-.m-width {
+/* .m-width {
 	max-width: 100%;
 	height: 100%;
-}
+} */
+
 .top-header .name {
 	font-size: 26px;
 }
@@ -74,7 +75,7 @@ body {
 
 .picture img {
 	width: 100%;
-	height: 100%;
+	/* height: 100%; */
 	/* height: auto; */
 	/* max-width: 100%; */
 }
@@ -95,7 +96,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 0.5rem;
 	line-height: 1.2;
-	height: auto;
+	/* height: auto; */
 }
 
 .about-me__description {
