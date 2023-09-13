@@ -18,11 +18,6 @@ body {
 	align-items: center;
 }
 
-/* .m-width {
-	max-width: 100%;
-	height: 100%;
-} */
-
 .top-header .name {
 	font-size: 26px;
 }
@@ -71,6 +66,11 @@ body {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
+}
+
+.m-width {
+	/* max-width: 100%; */
+	height: 100%;
 }
 
 .picture img {
