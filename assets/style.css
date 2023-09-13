@@ -20,6 +20,7 @@ body {
 
 .m-width {
 	max-width: 100%;
+	height: auto;
 }
 .top-header .name {
 	font-size: 26px;
